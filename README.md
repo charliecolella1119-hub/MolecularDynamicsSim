@@ -2,7 +2,6 @@
 
 A real-time C++ molecular dynamics sandbox for exploring Lennard-Jones particles, phase behavior, and statistical-mechanics observables. The project uses SFML for windowing and 2D visualization, with the simulation structured around periodic boundaries, pairwise Lennard-Jones forces, and velocity Verlet integration.
 
-This project is designed as a portfolio companion to a quantum/OpenGL scientific visualization project: the emphasis here is classical molecular simulation, thermodynamic measurements, and interactive analysis.
 
 ## Features
 
@@ -66,9 +65,3 @@ which captures a short-range repulsive core and longer-range attraction. The sim
 
 The displayed pressure is a two-dimensional virial-style estimate. The velocity histogram is compared against a two-dimensional Maxwell-Boltzmann speed distribution. The radial distribution function, `g(r)`, is normalized against the expected particle count in each annular shell, so a well-mixed gas tends toward `g(r) = 1` at larger distances.
 
-## Portfolio Summary
-
-**Molecular Dynamics Simulator**  
-Real-time C++ simulation of Lennard-Jones particles with velocity Verlet integration, periodic boundaries, pressure and energy tracking, Maxwell-Boltzmann velocity analysis, radial distribution functions, and phase-space visualization.
-
-Suggested tags: `C++`, `SFML`, `Molecular Dynamics`, `Statistical Mechanics`, `Scientific Visualization`, `CMake`.
